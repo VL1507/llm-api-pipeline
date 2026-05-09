@@ -7,8 +7,10 @@ from typing import Any, cast
 from openai import OpenAI
 
 from config import LLM_MODEL, ZVENOAI_API_KEY
+from utils import get_custom_logger
 
-logger = logging.getLogger(__name__)
+logger = get_custom_logger(__name__)
+
 
 client = OpenAI(
     base_url="https://api.zveno.ai/v1",
@@ -80,7 +82,10 @@ def write_json(path: str | Path, data: list[dict[str, Any]]) -> None:
 
 def main() -> None:
     """Запускает анализ отзывов."""
-    logging.basicConfig(level=logging.WARNING)
+    logging.basicConfig(
+        level=logging.WARNING,
+        format="%(asctime)s [%(name)s] %(levelname)s: %(message)s",
+    )
 
     input_data = read_csv("review.csv")
 
@@ -88,10 +93,10 @@ def main() -> None:
 
     for id_, review in input_data:
         res = review_classification(review)
-
+        logger.info("Отзыв id=%s проанализирован", id_)
         output_data.append({"id": id_, **res})
 
-    write_json("res.json", output_data)
+    write_json("result.json", output_data)
 
 
 if __name__ == "__main__":
