@@ -73,8 +73,10 @@ cd llm-api-pipeline
 cp .env.example .env
 ```
 
-- `ZVENOAI_API_KEY` можно создать по ссылке [ZvenoAI](https://zveno.ai/api-keys)
+- `API_KEY` можно создать по ссылке [ZvenoAI](https://zveno.ai/api-keys)
 - `LLM_MODEL` можно выбрать модель из [списка](https://zveno.ai/models)
+
+При желании можно переопределить еще и `BASE_URL` и взять LLM из другого места
 
 ### Запуск
 
