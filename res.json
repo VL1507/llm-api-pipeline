@@ -1,0 +1,510 @@
+[
+  {
+    "id": "0",
+    "tonality": "negative",
+    "topic": "ресторан",
+    "factor": [
+      "качество",
+      "цену",
+      "размер"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "1",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "размер",
+      "удобство",
+      "сидят",
+      "лёгкость",
+      "промокаемость"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "2",
+    "tonality": "positive",
+    "topic": "качество",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "id": "3",
+    "tonality": "positive",
+    "topic": "обувь",
+    "factor": [
+      "удобство"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "4",
+    "tonality": "negative",
+    "topic": "ботинки",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "5",
+    "tonality": "positive",
+    "topic": "качество",
+    "factor": [
+      "качество",
+      "фит"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "6",
+    "tonality": "neutral",
+    "topic": "ботинки",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "7",
+    "tonality": "positive",
+    "topic": "обувь",
+    "factor": [],
+    "confidence": 0.9
+  },
+  {
+    "id": "8",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "размер"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "9",
+    "tonality": "negative",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "размер",
+      "дизайн"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "10",
+    "tonality": "negative",
+    "topic": "палец",
+    "factor": [
+      "болезнь",
+      "стопа"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "11",
+    "tonality": "negative",
+    "topic": "легкие",
+    "factor": [
+      "размер"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "12",
+    "tonality": "positive",
+    "topic": "университет",
+    "factor": [
+      "качество",
+      "обслуживание"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "13",
+    "tonality": "neutral",
+    "topic": "ботинки",
+    "factor": [
+      "удобство",
+      "дышащая кожа"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "14",
+    "tonality": "negative",
+    "topic": "маломерки",
+    "factor": [
+      "качество",
+      "срок"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "15",
+    "tonality": "positive",
+    "topic": "обувь",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "16",
+    "tonality": "negative",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "механизм"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "17",
+    "tonality": "positive",
+    "topic": "размер, качество",
+    "factor": [
+      "размер",
+      "качество"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "18",
+    "tonality": "negative",
+    "topic": "качество обуви",
+    "factor": [
+      "качество",
+      "продукция"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "19",
+    "tonality": "positive",
+    "topic": "product",
+    "factor": [
+      "quality",
+      "service"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "id": "20",
+    "tonality": "positive",
+    "topic": "качество товара",
+    "factor": [
+      "качество",
+      "размер"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "21",
+    "tonality": "positive",
+    "topic": "услуги",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "22",
+    "tonality": "neutral",
+    "topic": "оценка",
+    "factor": [
+      "класс"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "23",
+    "tonality": "neutral",
+    "topic": "ок",
+    "factor": [],
+    "confidence": 1.0
+  },
+  {
+    "id": "24",
+    "tonality": "positive",
+    "topic": "кроссовки",
+    "factor": [
+      "удобство",
+      "чистота",
+      "уход"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "25",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "удобство",
+      "размер"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "26",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "удобство",
+      "комфорт"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "27",
+    "tonality": "positive",
+    "topic": "время, качество",
+    "factor": [
+      "время",
+      "качество"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "28",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "удобство",
+      "комфорт",
+      "качество"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "29",
+    "tonality": "negative",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "продолжительность"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "30",
+    "tonality": "negative",
+    "topic": "размер",
+    "factor": [
+      "мерит"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "31",
+    "tonality": "negative",
+    "topic": "размер и комфорт",
+    "factor": [
+      "размер",
+      "подошва",
+      "комфорт",
+      "подъем пятки"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "32",
+    "tonality": "negative",
+    "topic": "шнуровка",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "33",
+    "tonality": "positive",
+    "topic": "сервис",
+    "factor": [
+      "сервис",
+      "время"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "34",
+    "tonality": "positive",
+    "topic": "качество",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "id": "35",
+    "tonality": "positive",
+    "topic": "размер",
+    "factor": [
+      "большой",
+      "удобный"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "36",
+    "tonality": "negative",
+    "topic": "механизм затяжки",
+    "factor": [
+      "качество",
+      "надежность"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "37",
+    "tonality": "positive",
+    "topic": "качество",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "38",
+    "tonality": "negative",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "продукция"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "39",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "удобство"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "40",
+    "tonality": "negative",
+    "topic": "потерялась деталь",
+    "factor": [
+      "деталь",
+      "шнуровка"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "41",
+    "tonality": "positive",
+    "topic": "рыбалка",
+    "factor": [
+      "крючок"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "42",
+    "tonality": "positive",
+    "topic": "размер",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "43",
+    "tonality": "negative",
+    "topic": "качество",
+    "factor": [
+      "качество",
+      "срок"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "44",
+    "tonality": "positive",
+    "topic": "размер",
+    "factor": [
+      "подошел идеально"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "45",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "дизайн"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "46",
+    "tonality": "positive",
+    "topic": "product",
+    "factor": [
+      "quality"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "47",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "легкость",
+      "удобство",
+      "водонепроницаемость"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "48",
+    "tonality": "positive",
+    "topic": "обувь",
+    "factor": [
+      "качество",
+      "выдержка",
+      "шнуровка"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "49",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "материал"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "50",
+    "tonality": "positive",
+    "topic": "ботинки",
+    "factor": [
+      "качество",
+      "срок"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "51",
+    "tonality": "negative",
+    "topic": "сломался",
+    "factor": [
+      "крутилка"
+    ],
+    "confidence": 0.9
+  }
+]
