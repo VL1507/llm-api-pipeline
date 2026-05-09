@@ -6,7 +6,7 @@ from typing import Any, cast
 
 from openai import OpenAI
 
-from config import ZVENOAI_API_KEY
+from config import LLM_MODEL, ZVENOAI_API_KEY
 
 logger = logging.getLogger(__name__)
 
@@ -39,7 +39,7 @@ def review_classification(review: str) -> dict[str, Any]:
 
     """
     completion = client.chat.completions.create(
-        model="meta-llama/llama-3.1-8b-instruct",
+        model=LLM_MODEL,
         temperature=0.1,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},

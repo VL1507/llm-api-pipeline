@@ -6,3 +6,5 @@ load_dotenv()
 
 
 ZVENOAI_API_KEY = os.environ.get("ZVENOAI_API_KEY")
+
+LLM_MODEL = "meta-llama/llama-3.1-8b-instruct"
