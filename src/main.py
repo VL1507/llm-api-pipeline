@@ -6,15 +6,15 @@ from typing import Any, cast
 
 from openai import OpenAI
 
-from config import LLM_MODEL, ZVENOAI_API_KEY
+from config import API_KEY, BASE_URL, LLM_MODEL
 from utils import get_custom_logger
 
 logger = get_custom_logger(__name__)
 
 
 client = OpenAI(
-    base_url="https://api.zveno.ai/v1",
-    api_key=ZVENOAI_API_KEY,
+    api_key=API_KEY,
+    base_url=BASE_URL,
 )
 
 SYSTEM_PROMPT = """Ты профессиональный классификатор отзывов.
