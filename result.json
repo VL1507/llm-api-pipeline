@@ -1,0 +1,506 @@
+[
+  {
+    "id": "0",
+    "tonality": "negative",
+    "topic": "Качество товара",
+    "factor": [
+      "цена",
+      "размер"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "1",
+    "tonality": "positive",
+    "topic": "Обувь",
+    "factor": [
+      "размер",
+      "удобство",
+      "посадка",
+      "вес",
+      "водонепроницаемость"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "2",
+    "tonality": "positive",
+    "topic": "Качество товара",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "3",
+    "tonality": "positive",
+    "topic": "удобство обуви",
+    "factor": [
+      "удобство"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "4",
+    "tonality": "negative",
+    "topic": "Обувь",
+    "factor": [
+      "Качество",
+      "Внешний вид"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "5",
+    "tonality": "positive",
+    "topic": "Обувь, размер, посадка",
+    "factor": [
+      "качество",
+      "посадка",
+      "размер"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "6",
+    "tonality": "positive",
+    "topic": "Качество обуви",
+    "factor": [
+      "Качество"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "7",
+    "tonality": "positive",
+    "topic": "обувь",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "8",
+    "tonality": "positive",
+    "topic": "обувь размер",
+    "factor": [
+      "качество",
+      "размер"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "9",
+    "tonality": "negative",
+    "topic": "Обувь, ботинки",
+    "factor": [
+      "размер",
+      "качество",
+      "дизайн"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "10",
+    "tonality": "negative",
+    "topic": "дискомфорт при ходьбе",
+    "factor": [
+      "боль",
+      "дизайн обуви"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "11",
+    "tonality": "negative",
+    "topic": "Размер одежды",
+    "factor": [
+      "Размер"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "12",
+    "tonality": "positive",
+    "topic": "Удобство использования",
+    "factor": [
+      "Удобство"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "13",
+    "tonality": "positive",
+    "topic": "Одежда, носки",
+    "factor": [
+      "удобство",
+      "дышащие свойства",
+      "долговечность"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "14",
+    "tonality": "negative",
+    "topic": "качество обуви",
+    "factor": [
+      "качество",
+      "прочность"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "15",
+    "tonality": "positive",
+    "topic": "Качество обуви",
+    "factor": [
+      "Качество",
+      "Комфорт"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "16",
+    "tonality": "negative",
+    "topic": "качество обуви",
+    "factor": [
+      "механизм",
+      "качество"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "17",
+    "tonality": "positive",
+    "topic": "Качество и размер",
+    "factor": [
+      "размер",
+      "качество"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "18",
+    "tonality": "negative",
+    "topic": "Качество обуви",
+    "factor": [
+      "Качество",
+      "Прочность"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "19",
+    "tonality": "positive",
+    "topic": "Общее впечатление",
+    "factor": [],
+    "confidence": 0.95
+  },
+  {
+    "id": "20",
+    "tonality": "positive",
+    "topic": "Качество товара",
+    "factor": [
+      "Качество",
+      "Соответствие размера"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "21",
+    "tonality": "positive",
+    "topic": "Общее впечатление",
+    "factor": [],
+    "confidence": 0.9
+  },
+  {
+    "id": "22",
+    "tonality": "neutral",
+    "topic": "Класс",
+    "factor": [],
+    "confidence": 0.5
+  },
+  {
+    "id": "23",
+    "tonality": "neutral",
+    "topic": "ок",
+    "factor": [],
+    "confidence": 0.1
+  },
+  {
+    "id": "24",
+    "tonality": "positive",
+    "topic": "Кроссовки, уход, удобство",
+    "factor": [
+      "удобство",
+      "уход",
+      "видимость грязи"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "25",
+    "tonality": "positive",
+    "topic": "Обувь, размер",
+    "factor": [
+      "Удобство",
+      "Размер"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "26",
+    "tonality": "positive",
+    "topic": "Обувь",
+    "factor": [
+      "удобство",
+      "комфорт"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "27",
+    "tonality": "positive",
+    "topic": "Качество и доставка товара",
+    "factor": [
+      "доставка",
+      "качество",
+      "размер"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "28",
+    "tonality": "positive",
+    "topic": "Обувь для бега",
+    "factor": [
+      "лёгкость",
+      "удобство",
+      "дышащие свойства"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": "29",
+    "tonality": "negative",
+    "topic": "Качество обуви для трекинга",
+    "factor": [
+      "Прочность",
+      "Долговечность"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "30",
+    "tonality": "negative",
+    "topic": "Размер одежды",
+    "factor": [
+      "Размер"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "31",
+    "tonality": "negative",
+    "topic": "Обувь комфорт",
+    "factor": [
+      "размер",
+      "боа",
+      "комфорт",
+      "жесткость подошвы",
+      "подъем пятки"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "32",
+    "tonality": "negative",
+    "topic": "Качество товара",
+    "factor": [
+      "Шнуровка",
+      "Прочность"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "33",
+    "tonality": "positive",
+    "topic": "доставка",
+    "factor": [
+      "скорость",
+      "качество"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "34",
+    "tonality": "positive",
+    "topic": "качество товара",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "35",
+    "tonality": "negative",
+    "topic": "Размер одежды",
+    "factor": [
+      "Размер"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "36",
+    "tonality": "negative",
+    "topic": "качество механизма",
+    "factor": [
+      "механизм затяжки",
+      "прочность"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "37",
+    "tonality": "positive",
+    "topic": "Качество товара",
+    "factor": [
+      "качество"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "38",
+    "tonality": "negative",
+    "topic": "качество ботинок",
+    "factor": [
+      "качество",
+      "прочность"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "39",
+    "tonality": "positive",
+    "topic": "Обувь",
+    "factor": [
+      "качество",
+      "удобство"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "40",
+    "tonality": "negative",
+    "topic": "качество товара",
+    "factor": [
+      "качество",
+      "комплектация"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "41",
+    "tonality": "neutral",
+    "topic": "Крючок",
+    "factor": [],
+    "confidence": 0.5
+  },
+  {
+    "id": "42",
+    "tonality": "positive",
+    "topic": "Одежда, размер",
+    "factor": [
+      "размер",
+      "посадка"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "43",
+    "tonality": "positive",
+    "topic": "Обувь",
+    "factor": [
+      "Качество",
+      "Комфорт"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "44",
+    "tonality": "positive",
+    "topic": "размер обуви",
+    "factor": [
+      "размер"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "45",
+    "tonality": "positive",
+    "topic": "Обувь, качество",
+    "factor": [
+      "качество",
+      "водонепроницаемость"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "46",
+    "tonality": "positive",
+    "topic": "Эмоции и впечатления",
+    "factor": [],
+    "confidence": 0.9
+  },
+  {
+    "id": "47",
+    "tonality": "positive",
+    "topic": "Обувь для ходьбы",
+    "factor": [
+      "размер",
+      "удобство",
+      "водонепроницаемость"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": "48",
+    "tonality": "positive",
+    "topic": "Обувь для спорта",
+    "factor": [
+      "качество",
+      "прочность",
+      "шнуровка"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "49",
+    "tonality": "neutral",
+    "topic": "Размер обуви",
+    "factor": [
+      "размер"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "50",
+    "tonality": "positive",
+    "topic": "Обувь, комфорт",
+    "factor": [
+      "внешний вид",
+      "посадка"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": "51",
+    "tonality": "negative",
+    "topic": "Неисправность устройства",
+    "factor": [
+      "Качество",
+      "Прочность"
+    ],
+    "confidence": 0.9
+  }
+]
